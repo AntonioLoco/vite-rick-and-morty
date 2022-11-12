@@ -1,0 +1,30 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap.css";
+
+@font-face {
+  font-family: "fontRick";
+  src: url(./assets/fonts/get_schwifty.ttf);
+}
+
+/* VARIABLES */
+:root{
+  /* Palette */
+  --ms_bg-body: #e89ac7;
+  --ms_bg-card: #42b4ca;
+  --ms_color-card: #97ce4c;
+}
+
+body{
+  font-size: 100%;
+  font-family: "fontRick", sans-serif;
+  background-color: var(--ms_bg-body);
+}
+
+img{
+  max-width: 100%;
+}
+
+/* Characters Card */
+.characters-card{
+  background-color: var(--ms_bg-card);
+  color: var(--ms_color-card);
+}
