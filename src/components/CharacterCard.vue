@@ -25,7 +25,7 @@ export default{
 .characters-card{
     width: 100%;
     height: 100%;
-    padding: 1.5em .5em;
+    padding: 2.5em .5em;
     border-radius: 20px;
     box-shadow: 7px 7px 22px 1px rgba(0,0,0,0.51);
 }
